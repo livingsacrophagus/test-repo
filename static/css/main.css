@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: VT323, monospace;
+    font-size: 16pt;
+    color: #fff;
+    background-color: #005555;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-logo {
+    display: flex;
+    min-width: 180px;
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.tweet-form {
+    display: flex;
+    min-width: 400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.tweet-form>input {
+    margin-bottom: 1.5rem;
+}
+
+.tweet-form:focus {
+    box-shadow: 0 0 0 3px #037b81 !important;
+}
+
+#tweet {
+    outline: 0;
+}
+
+#tweet-btn {
+    margin-top: 15px;
+    background-color: #013d3d;
+    border-color: #003838;
+    color: #ffffff;
+    border-radius: 3px;
+    outline: 0;
+}
+
+#tweets-table {
+    background-color: #013d3d;
+    border-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.status-text {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    visibility: hidden;
+}

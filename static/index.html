@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Twitter v2</title>
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="./css/nes-core.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+
+<body>
+<img src="./images/logo.gif" class="main-logo" />
+<p>
+    In a world dominated by Elon & big tech companies - a new competitor for Twitter emerges. Our twitter clone is free & open-source.<br>Currently it's still under development, so only members with invitations can tweet.
+</p>
+
+<div class="tweet-form">
+    <label for="tweet">Tweet something!</label>
+    <textarea rows="4" cols="50" id="tweet" placeholder="What's on your mind?..."></textarea>
+    <button type="button" id="tweet-btn">Tweeeeet</button>
+</div>
+
+<p class="status-text">Please wait...</p>
+
+<div style="text-align:center;" id="your-tweets">
+    <h5>Your tweets</h5>
+    <table id="tweets-table" align="center">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tweet</th>
+        </tr>
+        </thead>
+        <tbody id="testBody "></tbody>
+    </table>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js " integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+<script type="text/javascript " src="./js/main.js "></script>
+</body>
+
+</html>
